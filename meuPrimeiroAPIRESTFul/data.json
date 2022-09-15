@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1 ,
+        "nome": "Rodrigo" ,
+        "sexo": "Maculino" ,
+        "idade": 34 
+    },
+    {
+        "id": 2 ,
+        "nome": "Zaminha" ,
+        "sexo": "Feminino" ,
+        "idade": 32 
+    },
+    {
+        "id": 3 ,
+        "nome": "Lukinha" ,
+        "sexo": "Maculino" ,
+        "idade": 13 
+    },
+    {
+        "id": 4 ,
+        "nome": "João" ,
+        "sexo": "Maculino" ,
+        "idade": 14 
+    }
+]
