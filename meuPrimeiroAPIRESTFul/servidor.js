@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 // Verbos HTTP
-//GET : rECEBER DADOS DE U M RESOUCE.
+//GET : DECEBER DADOS DE UM RESOUCE.
 //POST : ENVIAR DADOS OU INFORMAÇÕES PARA SEREM PROCESSADOS POR UM RESOUCER.
 //PUT : ATUALIZAR DADOS DE UM RESOURCE.
 //DELETE : DELETAR UM RESOUCE.
@@ -44,7 +44,7 @@ app.put("/clients/:id", function( request, response){
 
     cl.nome = nome
 
-    response.json(cl); 
+    response.json(cl);
 });
 
 
@@ -54,7 +54,7 @@ app.delete("/clients/:id", function( request, response){
 
     if(!clFilltered) return response.status(204).json();
 
-    response.json(clFilltered); 
+    response.json(clFilltered);
 });
 
 app.listen(3000, function(  ){
